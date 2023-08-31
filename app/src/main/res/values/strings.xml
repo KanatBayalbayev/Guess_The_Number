@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Guess_The_Number_</string>
+    <string name="logo">logo</string>
+    <string name="description">"Guess the Number" is an exciting and challenging game where players test their deduction skills and number-guessing abilities against the clock. \n The objective of the game is to correctly guess a secret number within a limited amount of time</string>
+    <string name="play">Play</string>
+    <string name="choose_the_level">Choose the level:</string>
+    <string name="easy">EASY</string>
+    <string name="medium">MEDIUM</string>
+    <string name="hard">HARD</string>
+    <string name="_01_00">01:00</string>
+    <string name="guess_a_number_between_1_20">Guess a Number Between 1-20</string>
+    <string name="emodji">😎</string>
+    <string name="print_your_guess">Print Your Guess</string>
+    <string name="check">Check</string>
+    <string name="chance">💖</string>
+    <string name="chances">Chances:</string>
+    <string name="new_game">New Game</string>
+    <string name="handleft">👉</string>
+    <string name="questionSign">❓</string>
+    <string name="handRight">👈</string>
 </resources>
