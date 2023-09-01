@@ -8,7 +8,7 @@
     <string name="medium">MEDIUM</string>
     <string name="hard">HARD</string>
     <string name="_01_00">01:00</string>
-    <string name="guess_a_number_between_1_20">Guess a Number Between 1-20</string>
+    <string name="guess_a_number_between">Guess a Number Between 1-%s</string>
     <string name="emodji">😎</string>
     <string name="print_your_guess">Print Your Guess</string>
     <string name="check">Check</string>
@@ -18,4 +18,9 @@
     <string name="handleft">👉</string>
     <string name="questionSign">❓</string>
     <string name="handRight">👈</string>
+    <string name="your_guess_is_too_high">Your guess is too high</string>
+    <string name="your_guess_is_too_low">Your guess is too low</string>
+    <string name="winner">You are right</string>
+    <string name="winnerSmile">😀</string>
+    <string name="warning">Print your guess</string>
 </resources>

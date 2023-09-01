@@ -23,6 +23,25 @@ class LevelsFragment : Fragment() {
         return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        binding.buttonEasyGame.setOnClickListener { launchGame("easy") }
+
+        binding.buttonMediumGame.setOnClickListener { launchGame("medium") }
+
+        binding.buttonHardGame.setOnClickListener { launchGame("hard") }
+    }
+
+    private fun launchGame(level: String){
+        requireActivity().supportFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container, GameFragment.newInstance(level))
+            .addToBackStack(GameFragment.NAME)
+            .commit()
+    }
+
+
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
